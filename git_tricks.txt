@@ -1,0 +1,44 @@
+git init <directory_name>
+
+git add <file_name>
+	OR
+git add .  ----->>>>   to add all files of the current directory
+
+git status    ----->>>>  to check the status of the added files 
+
+git branch -M main   ---->>>>>>
+
+git reset <file_name>  --->>>   to remove the file from the staging area
+	OR
+git reset .    --->>>    to remove all the files from the staging area.
+
+
+git log   -- >>>>    get the log of the recent commits
+
+git revert <hash>  --->>> revert the action using the hash of the prev commit
+
+
+
+
+git merge origin/master
+
+
+
+git push -u origin master
+
+
+
+
+
+
+                    +=======================================================================
+					+																		+
+                    +    how to make changes and save to the github							+
+                    +    =========================================							+
+                    +    git add <file_name> <file_name2>									+	
+                    +    																	+
+                    +    git commit -m "message what changes have done to the files"		+
+                    +    																	+
+                    +    git push origin master												+
+                    +    																	+
+                    +=======================================================================+
